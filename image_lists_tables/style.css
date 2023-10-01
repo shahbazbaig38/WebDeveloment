@@ -1,0 +1,10 @@
+td{
+    border: 2px solid black;
+}
+ul{
+    list-style-type: square;
+    list-style: circle;
+}
+ol{
+    list-style: upper-alpha;
+}
