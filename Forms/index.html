@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms - Let's Learn</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Form for hiring teaching assisting</h1>
+
+    <form action="post">
+      <div>
+        <label for="username">Enter your Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your name:"
+          autofocus8
+          required
+        />
+      </div>
+
+      <div>
+        <label for="gender">Select Gender</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <div>
+        <label for="subscribe">Subscribe to newsletter?</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+      </div>
+
+      <div>
+        <label for="comment">Enter your comment here..</label>
+        <textarea name="comment" id="comment" cols="50" rows="4"></textarea>
+      </div>
+      <div>
+        <label for="fruits">Select your favorite fruit:</label>
+        <select name="fruits" id="fruits">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="orange">Orange</option>
+        </select>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
